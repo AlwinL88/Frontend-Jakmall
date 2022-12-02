@@ -1,0 +1,337 @@
+*{
+
+    font-family: sans-serif;
+}
+body{
+    background-color: antiquewhite;
+    width: 100%;
+    height: 700px;
+}
+.poni{
+    width: 400px;
+    height: 70px;
+    border-radius: 30px;
+    background-color: antiquewhite;
+    position: absolute;
+    margin-bottom: 575px;
+}
+.garis1{
+    position: inherit;
+    margin-top: 10px;
+    width: 250px;
+    height: 4px;
+    background-color: grey;
+    opacity: 30%;
+}
+
+label{
+    margin-bottom: 3px;
+    align-items:flex-end;
+    display: flex;
+    position: relative;
+    color:black;
+}
+.header{
+    position:absolute;
+    display: flex;
+    align-items:center;
+    position: relative;
+}
+
+.arrow{
+
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+}
+.right{
+    transform: rotate(90deg);
+}
+.arrow1 {
+    position: absolute;
+    height: 8px;
+    width: 8px;
+    border-top:  3px solid #ffa800;
+    border-left:  3px solid #ffa800;
+    transform: rotate(133deg);
+    left: 95px;
+    top: 43px;
+}
+
+.Lingkaran{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.Lingkaran1{
+    color: white;
+    width: 20px;
+	height: 20px;
+    font-size: 15px;
+	background: #ffa800;
+	border-radius: 100%;
+    text-align: center;
+    margin-top: 40px;
+    font-weight: bolder;
+}
+.Lingkaran2{
+    color: white;
+    width: 20px;
+	height: 20px;
+    font-size: 15px;
+	background: #ffa800;
+	border-radius: 100%;
+    text-align: center;
+    margin-top: 40px;
+    font-weight: bolder;
+    opacity: 70%;
+}
+.Lingkaran3{
+    color: white;
+    width: 20px;
+	height: 20px;
+    font-size: 15px;
+	background: #ffa800;
+	border-radius: 100%;
+    text-align: center;
+    margin-top: 40px;
+    font-weight: bolder;
+    opacity: 70%;
+}
+.Boxes{
+    width: 1100px;
+    height: 500px;
+    justify-content: center;
+    display: flex;
+}
+.Container{
+    position: relative;
+    align-items: center;
+    width: 1050px;
+    height: 550px;
+    left: 50px;
+    top: 50px;
+    background: #FFFFFF;
+    box-shadow: 2px 10px 20px rgba(255, 138, 0, 0.1);
+    border-radius: 0px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+}
+.left-box{
+    align-items: center;
+    width: 100%;
+    height: 500px;
+    margin-left: 50px;
+    border-radius: 5px;
+}
+h2{
+    color: #ffa800;
+    margin-top: 40px;
+}
+
+.left-boxes{
+    padding: 10px;
+    margin-left: 5px;
+    margin-right: 10px;
+    width: 100%;
+    height: 100px;
+    justify-content: center;
+    margin-top: 50px;
+
+}
+.left-boxes1{
+    padding: 10px;
+    margin-left: 5px;
+    margin-right: 10px;
+    width: 100%;
+    height: 100px;
+    margin-top: 50px;
+
+}
+.right-box{
+    width: 400px;
+    height: 500px;
+    left: 100px;
+    margin-right: 50px;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+.total{
+    color: #ffa800;
+    font-size: 25px;
+    font-weight: bolder;
+    position:absolute;
+    bottom: 100px;
+    width: 250px;
+    height: 100px;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+.payment{
+    display: flex;
+    margin-top: 15px;
+    margin-right: 10px;
+    margin-left: 10px;
+    width: 250px;
+    height: 50px;
+    color: white;
+    font-size: 20px ;
+    background-color: #ffa800;
+    bottom: 10px;
+    position:absolute;
+    margin-bottom: 40px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+.deskripsi{
+    font-size: 13px;
+    color: black;
+    text-align: start;
+    font-weight:100;
+    line-height: 20px;
+}
+.deskripsii{
+    font-size: 13px;
+    color: black;
+    text-align: end;
+    font-weight: bold;
+    line-height: 20px;
+}
+.right-box .total .deskripsi-1{
+    color: #ffa800;
+}
+.right-box .total .deskripsi-11{
+    color: #ffa800;
+    text-align: end;
+}
+.total-box{
+    float: left;
+    justify-content: space-between;
+}
+.total-box1{
+    margin-left: 10px;
+
+}
+.garis-hz{
+    margin-left: 5px;
+    margin-top: 30px;
+    width: 2px;
+    height: 450px;
+    background-color: #ffa800;
+}
+.garis-hz11{
+    margin-top: 30px;
+    opacity: 30%;
+    width: 400px;
+    height: 10px;
+    background-color: rgb(202, 199, 199);
+    position: absolute;
+}
+ .garis-hz111{
+    margin-top: 30px;
+    opacity: 30%;
+    width: 400px;
+    height: 10px;
+    background-color: rgb(202, 199, 199);
+    position: absolute;
+}
+.right-box button{
+    display: flex;
+    margin-top: 15px;
+    margin-right: 10px;
+    margin-left: 10px;
+    width: 250px;
+    height: 50px;
+    color: white;
+    font-size: 20px ;
+    background-color: #ffa800;
+    bottom: 10px;
+    position:absolute;
+    margin-bottom: 40px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+    border-color: #ffa800;
+    transition: 5s;
+}
+.pengiriman{
+    font-size: 15px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.pengiriman1{
+    color: rgb(5, 206, 5);
+    font-size: 15px;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-weight: bolder;
+}
+.Shipment{
+    color: #ffa800;
+    font-size: 40px;
+    font-weight: bolder;
+    position:absolute;
+    display: flex;
+}
+.Payment{
+    margin-top: 20px;
+    color: #ffa800;
+    font-size: 40px;
+    font-weight: bolder;
+    position:relative;
+    display: flex;
+}
+.sh{
+    padding: 10px;
+    width: 100%;
+    height: 300px;
+    justify-content: center;
+    margin-top: 40px;
+}
+.py{
+    padding: 10px;
+    width: 100%;
+    height: 100px;
+
+}
+.left-box .left-boxes .button1 button{
+    text-align: left;
+    padding: 20px;
+    cursor: pointer;
+    width: 150px;
+    height: 70px;
+    margin-right: 30px;
+}
+
+.left-box .left-boxes .button1 button::after{
+    content: "";
+}
+.left-box .left-boxes .button1 button:hover{
+    background-color: rgb(148, 228, 148);
+    border-color: 5px solid green;
+}
+.left-box .left-boxes1 .button1 button{
+    position: relative;
+    margin-top: 5px;
+    text-align: left;
+    padding: 20px;
+    cursor: pointer;
+    width: 150px;
+    height: 70px;
+    margin-right: 30px;
+}
+
+.left-box .left-boxes1 .button1 button::after{
+    content: "";
+}
+.left-box .left-boxes1 .button1 button:hover{
+    background-color: rgb(148, 228, 148);
+    border-color: 5px solid green;
+}
+

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="Delivery.css">
+    <title>jakmall</title>
+</head>
+<body>
+<div class="Container">
+    <div class="poni">
+        <div class="Lingkaran">
+            <div class="arrow"> 
+            <div class="Lingkaran1"> 1  </div>
+                <div class="arrow1"></div>
+                    <label> Delivery </label>
+        </div>
+        <div class="arrow"> 
+            <div class="Lingkaran2"> 2  </div>
+                <div class="arrow1"></div>
+                    <label> payment </label>
+        </div>
+        <div class="arrow"> 
+            <div class="Lingkaran3"> 3 </div>
+            <label> Finish</label>
+        </div>
+        </div>
+    </div>
+    <div class="Boxes">
+            <div class="left-box">
+                <div class="Detail">
+                    <div class="header">
+                        <div class="Delivery"> Delivery Detail          
+                            <div class="garis-hz11"></div> 
+                        <div class="header1">
+                        <input type="checkbox" id="check">
+                        <label for="check"> Send as Dropshipper</label>
+                    </div>
+                    </div>
+                </div>
+                </div>   
+                <div class="left-boxes"> 
+                    <form action="#"> 
+                        <input type="email" name="email" id="email" placeholder="Email" size="30" required >
+                        <input type="text" placeholder="Dropshipper name"size="30" required>
+                        <input type="tel" placeholder="Phone Number" pattern="(\+62|62|0)8[1-9][0-9]{6,20}$" size="30" 
+                            oninvalid="this.setCustomValidity('minimal 6 angka maksimal 20 angka dimulai dari 0 atau +62')" oninput="this.setCustomValidity('')" required>
+                        <input type="tel" placeholder="Dropshipper Phone Number" pattern="(\+62|62|0)8[1-9][0-9]{6,20}$" size="30" required>
+                        <input type="text" placeholder=" Delivery Address" size="30px" max="120" 
+                            oninvalid="setCustomValidity('Maksimal 120 kata')" oninput="this.setCustomValidity('')" required>
+                        <button>kirimkan coba</button>
+                        </form> 
+                    </div>
+                </div> 
+            </div>
+            <div class="garis-hz"></div>
+                <div class="right-box">
+                    <h2 style="margin-left: 10px;">Summary</h2>
+                    <h3 style="margin-left: 10px;">10 Item purchased</h3>
+                    <div class="total">
+                        <div class="total-box">
+                            <div class="deskripsi"> Cost of goods </div>
+                            <div class="deskripsi"> Dropshipping Fee </div>
+                            <div class="deskripsi-1"> Total</div>
+                        </div>
+                        <div class="total-box1">
+                            <div class="deskripsii"> 500,000 </div>
+                            <div class="deskripsii"> 5,900</div>
+                            <div class="deskripsi-1"> 505,900</div>
+                        </div>
+                    </div>
+                    <button type="submit">Continue to payment</button>
+                </div>
+    </div>
+    <script type="text/javascript" src="scripts.js"></script>
+</body>
+</html>
